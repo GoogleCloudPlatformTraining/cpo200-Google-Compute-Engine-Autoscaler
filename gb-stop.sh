@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-docker run cpo201/sqladmin python app/sqladmin.py stop
+docker run cpo200/sqladmin python app/sqladmin.py stop
