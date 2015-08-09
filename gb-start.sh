@@ -27,7 +27,7 @@ SQL_PW=$(curl \
 attributes/sql-pw" \
 -H "Metadata-Flavor: Google")
 
-docker run cpo200/sqladmin python app/sqladmin.py start
+docker run cpo200/sqladmin python app/sqladmin.py
 
 docker run \
 -e CLOUDSQL_IP=$SQL_IP \
